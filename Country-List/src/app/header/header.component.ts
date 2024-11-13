@@ -6,7 +6,12 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [CommonModule], // Agregar CommonModule aquí
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css'] // Asegúrate de que esté en plural
+  styleUrls: ['./header.component.css']
 })
 
-export class HeaderComponent { }
+export class HeaderComponent {
+  Title: string = "Angular Countries"
+  
+
+  
+}
